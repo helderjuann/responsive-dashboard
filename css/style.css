@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    background-color: #faf9fc;
+}
+
+.clear {
+    clear: both;
+}
+
+.logo {
+    background-color: #26282d;
+    border-bottom: 1px solid #ccc;
+}
+
+.logo img {
+    width: 100%;
+    max-width: 150px;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.menu {
+    height: 100%;
+    background-color: #2d3035;
+    width: 250px;
+    float: left;
+}
+
+.menu i {
+    margin-right: 20px;
+}
+
+.menu ul {
+    margin-top: 80px;
+    list-style-type: none;
+}
+
+.menu :where(ul li, .exit) {
+    padding: 0 25px;
+    margin: 30px 0;
+}
+
+.menu :where(ul li a, .exit) {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    color: #717171;
+}
+
+.menu ul li a {
+    text-decoration: none;
+}
+
+.menu :where(ul li a, .exit):hover {
+    transition: 250ms ease-in;
+    color: #ffffff;
+}
+
+.menu .selected {
+    color: #ffffff;
+}
+
+.menu .selected i {
+    color: #7f41d9;
+}
+
+.exit {
+    cursor: pointer;
+}
+
+.main-content {
+    float: left;
+    width: calc(100% - 250px);
+    background-color: #ffffff;
+    border-bottom: 1px solid #ccc;
+}
+
+.main-content header {
+    padding: 15px 0;
+    float: right;
+    margin-right: 120px;
+}
+
+.main-content ul {
+    list-style-type: none;
+}
+
+.main-content ul li {
+    float: left;
+    margin: 0 15px;
+}
+
+.main-content ul li a {
+    color: #a8a8a8;
+    text-decoration: none;
+    position: relative;
+    top: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0 10px;
+    font-size: 15px;
+}
+
+.main-content ul li i {
+    background-color: #d6d6d6;
+    padding: 10px;
+    border-radius: 6px;
+    color: white;
+    font-size: 17px;
+}
+
+.main-content ul li .bell {
+    background-color: #fbedef;
+    color: #ed7387;
+}
