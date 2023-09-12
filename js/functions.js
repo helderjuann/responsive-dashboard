@@ -1,19 +1,5 @@
 $(function() {
 
-    menuMobile();
-
-    function menuMobile() {
-        $('body').on('click','.menu-mobile p', function(e) {
-            e.stopPropagation();
-            $('.menu-mobile').find('ul').slideToggle();
-        });
-
-        $('body').on('click', function(e) {
-            e.stopPropagation();
-            $('.menu-mobile').find('ul').slideUp('open');
-        });
-    }
-
     disableTextS();
 
     function disableTextS() {
