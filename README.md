@@ -1,6 +1,6 @@
 # responsive-dashboard
 
-Página incompleta - Estou terminando de estudar o layout
+Terminei o Dashboard para desktop (Todas resoluções maiores).
 
 Obs. Pensar no responsivo e organizar para deixar tudo 100% funcional e sem bugs.
 
