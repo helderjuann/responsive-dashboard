@@ -320,4 +320,34 @@ textarea:focus {
     .main-content nav ul li [class] {
         float: none;
     }
+
+    .wrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .wrapper .notes {
+        margin-right: 0;
+    }
+    
+    .wrapper .ticket {
+        margin-left: 0;
+        min-height: 180px;
+    }
+    
+    .wrapper :where(.notes, .ticket) {
+        width: 100%;
+        margin: 7px 0;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .middle {
+        width: 100%;
+        float: left;
+    }
+    
+    .right-side {
+        display: none;
+    }
 }
