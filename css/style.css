@@ -306,3 +306,18 @@ textarea:focus {
     bottom: 20px;
     margin-left: 10px;
 }
+
+@media screen and (max-width: 1130px) {
+    .main-content header {
+        float: right;
+        margin-right: 0;
+    }
+
+    .main-content [href="#"] {
+        display: none;
+    }
+
+    .main-content nav ul li [class] {
+        float: none;
+    }
+}
