@@ -351,3 +351,23 @@ textarea:focus {
         display: none;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .main-content header {
+        padding: 15px 0;
+        float: none;
+        margin-right: 0;
+    }
+
+    .menu {
+        width: 0;
+        float: none;
+        display: none;
+    }
+
+    .middle {
+        width: calc(100% + 250px);
+        float: left;
+    }
+    
+}
