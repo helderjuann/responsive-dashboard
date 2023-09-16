@@ -2,6 +2,6 @@
 
 Terminei o Dashboard para desktop (Todas resoluções maiores).
 
-Obs. Comecei a fazer o mobile. Mas ainda estou com alguns problemas para resolver
+Obs. Preciso terminar o design responsivo para o mobile.
 
 Deploy -> https://helderjuann.github.io/responsive-dashboard/ (DEPLOY OFF)
